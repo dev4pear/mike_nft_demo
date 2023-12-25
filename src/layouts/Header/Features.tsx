@@ -29,6 +29,11 @@ export const features = [
     icons: "farm-icons",
   },
   {
+    name: "NFTs",
+    path: "/nfts",
+    icons: "nft-icons",
+  },
+  {
     name: "Docs",
     path: "https://miketoken-io.gitbook.io/miketoken.io/",
     icons: "docs",
@@ -40,7 +45,7 @@ export const Features = () => {
   const router = useRouter();
   return (
     <SimpleGrid
-      columns={[6]}
+      columns={[7]}
       color="text.primary"
       fontWeight={500}
       display={{
