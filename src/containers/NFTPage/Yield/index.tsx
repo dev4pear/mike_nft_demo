@@ -205,7 +205,7 @@ return (
           
           <Flex className="flex-col" paddingRight={5}>
           <Typography type="body1" as="span" color="text.success">
-            project Yield %     
+            Project Yield %     
             </Typography>
             <Typography type="headline2" as="span" color="text.primary" >
             33.78%         
