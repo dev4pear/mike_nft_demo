@@ -84,12 +84,12 @@ const MSNFTBuy = () => {
           Additional Yield:        
         </Typography>
         <Typography type="body1" color="text.read" mb="8px" >
-          Monsters Syndicate NFTs offer an additional yield of 200% APR.
+          Monsters Syndicate NFTs offer additional yield up to 200% APR.
         </Typography>
         <Flex>
           <Flex className="flex-col" >
             <Typography type="headline4" as="span" color="text.primary" >
-              3000 
+              1000 {" "}
               <Typography type="body1" as="span" color="text.primary">
                 USDT       
               </Typography>          

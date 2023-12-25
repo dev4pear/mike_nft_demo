@@ -41,18 +41,18 @@ const GPNFTBuy = () => {
           Deposit Allowance:          
         </Typography>
         <Typography type="body1" color="text.read" mb="8px">
-          Each Generation Prime NFT allows the holder to deposit up to 10,000 USDT.Additional Yield: Generation Prime NFTs offer an additional yield of 365% Annual Percentage Rate (APR).
+          Each Generation Prime NFT allows the holder to deposit up to 10,000 USDT.
         </Typography>
         <Typography type="headline4" as="span" color="text.primary">
           Additional Yield:        
         </Typography>
         <Typography type="body1" color="text.read" mb="8px" >
-          Monsters Syndicate NFTs offer an additional yield of 200% APR.
+          Generation Prime NFTs offer additional yield up to 365% APR
         </Typography>
         <Flex>
           <Flex className="flex-col">
             <Typography type="headline4" as="span" color="text.primary" >
-              5000 
+              3500 {" "}
               <Typography type="body1" as="span" color="text.primary">
                 USDT       
               </Typography>          
