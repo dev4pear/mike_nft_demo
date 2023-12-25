@@ -35,7 +35,7 @@ const { isOpen, onOpen, onClose } = useDisclosure();
 return (
 <Flex direction={"column"} position={"relative"} className=" min-h-screen">
   <Typography type="headline1" as="span" lineHeight={"64px"} color="text.success" align={"center"} marginTop={50}>
-    Monsters Syndicate{" "}
+    Yield Calculator{" "}
   </Typography>
   <Flex>
     <Typography marginX={"auto"} type="body1" as="span" color="text.read" mb="8px" align={"center"} maxW={500} mt={3}>
@@ -55,7 +55,7 @@ return (
           border: "1px solid #1ED760",   
           color: "#1ED760",  
           }} p="12px 12px" w={"inherit"} key={1}>
-          Generator Prime
+          Monsters Syndicate
         </Tab>
         <Tab 
         border="1px solid #414E5A" 
@@ -128,7 +128,7 @@ return (
           borderBottomRightRadius={"12px"}
         /> */}
       <Typography type="headline1" as="span" lineHeight={"64px"} color="text.success" align={"left"} py={5}>
-        Calculator{" "}
+        Yield Calculator{" "}
       </Typography>
       <Typography type="body1" as="span" color="text.success" mb="10px">
         Number of NFTs
@@ -187,15 +187,15 @@ return (
           Calculate Now
         </Button>
     </Flex>
-    <Flex
-      className="flex-col m-[20px]">
+    <Flex className="flex-col m-[20px]">
       <Typography type="headline1" as="span" lineHeight={"64px"} color="text.success" align={"center"} py={5}>
         Expected Result{" "}
       </Typography>
-      <Flex className="pt-[10px] " mx="auto">
+      <Flex className=" lg:flex-col flex-col-reverse">
+        <Flex className="pt-[10px]" mx="auto">
           <Flex className="flex-col w-[160px]" paddingRight={5} >
             <Typography type="body1" as="span" color="text.success">
-              Expected Income      
+              Estimated Income      
             </Typography>
             <Typography type="headline2" as="span" color="text.primary" >
             67.9$      
@@ -223,20 +223,21 @@ return (
           </Flex>
         </Flex>
         <Flex className="min-w-[250px]">
-        <Image
-          src="/images/income-solution.png"
-          width={400}
-          height={400}
-          
-          alt="income-solution"
-          style={{
-            width: "90%",
-            height: "90%",
-          }}
-          className="mx-auto pl-[0px] rounded-lg"
-          priority
-        />
+          <Image
+            src="/images/income-solution.png"
+            width={400}
+            height={400}
+            
+            alt="income-solution"
+            style={{
+              width: "90%",
+              height: "90%",
+            }}
+            className="mx-auto pl-[0px] rounded-lg"
+            priority
+          />
         </Flex>
+      </Flex>
     </Flex>
   </Flex>
 </Flex>

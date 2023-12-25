@@ -75,7 +75,7 @@ const Description = () => {
           lineHeight={"64px"}
           color="text.primary"
         >
-          Welcometo the captivating world of Mike Token NFTs{" "}
+          Welcome to the captivating world of Mike Token NFTs{" "}
           {/* <Typography type="headline1" as="span" color="text.success">
             CoinAI
           </Typography> */}
@@ -84,7 +84,7 @@ const Description = () => {
         Generation Prime  {" "}
           <Typography type="headline4" as="span" color="text.primary">
             {" "}
-            and
+            &
             
           </Typography>
           <Typography type="headline4" as="span" color="text.success">

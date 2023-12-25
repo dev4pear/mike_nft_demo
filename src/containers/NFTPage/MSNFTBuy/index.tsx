@@ -69,7 +69,7 @@ const MSNFTBuy = () => {
           </Typography> */}
         </Typography>
         <Typography type="headline4" as="span" color="text.primary">
-          Befenit:          
+          Benefit:          
         </Typography>
         <Typography type="body1" color="text.read" mb="8px">
           Holders of Monsters Syndicate NFTs gain exclusive access to private social channels, fostering a sense of community and providing a platform for networking and sharing insights. Monsters Syndicate NFT holders can unlock unique vanity profile pictures and obtain a special role within the Discord community, showcasing their status as esteemed holders.
