@@ -35,7 +35,7 @@ const MSNFTBuy = () => {
             position: "absolute",
             width: "100%",
             height: "100%",
-            right: "-100px",
+            // right: "-100px",
             zIndex: 1,
           }}
           priority
