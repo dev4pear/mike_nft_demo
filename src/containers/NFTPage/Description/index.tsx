@@ -82,7 +82,7 @@ const Description = () => {
         </Typography>
         <Typography type="headline4" as="span" color="text.success">
         Generation Prime  {" "}
-          <Typography type="headline4" as="span" color="text.primary">
+          <Typography type="headline4" as="span" color="text.success">
             {" "}
             &
             
