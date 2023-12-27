@@ -93,8 +93,8 @@ export const Header = () => {
               />
             </Flex>
           </Flex>
-
-          <Features />
+          <Features />   
+          
 
           <Flex justifyContent={"flex-end"}>
             <Flex

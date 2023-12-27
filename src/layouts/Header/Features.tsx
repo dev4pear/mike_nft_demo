@@ -52,6 +52,7 @@ export const Features = () => {
         xs: "none",
         xl: "grid",
       }}
+      className="ml-[-100px]"
     >
       {features.map((e) => (
         <Link href={e.path} key={e.name} target={e.isExternal ? "_blank" : ""} >
@@ -59,6 +60,7 @@ export const Features = () => {
             color={router?.asPath === e.path ? "#1ED760" : ""}
             alignItems={"center"}
             justifyContent={"center"}
+            
           >
             {e.name}
           </Flex>

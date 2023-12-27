@@ -76,7 +76,7 @@ return (
     <Flex background={
           "radial-gradient(213.29% 109.87% at 8.93% -0.00%, rgba(36, 100, 125, 0.50) 0%, rgba(28, 34, 37, 0.50) 34.76%, rgba(19, 19, 20, 0.50) 63.42%)"
         }
-      className="flex-col bg-divider-active bg-opacity-60 border-solid border-[1px] border-gray-600 rounded-lg px-[30px] m-[20px]"
+      className=" flex-col bg-divider-active bg-opacity-60 border-solid border-[1px] border-gray-600 rounded-lg px-[30px] m-[20px] lg:max-w-[600px]  lg:max-h-[580px]"
       position={"relative"}
     >
       {/* <Flex
@@ -177,12 +177,12 @@ return (
         bgColor="bg.brand !important"
         rounded="full"
         px={4}
-        py={6}
+        py={7}
         onClick={onOpen}
         fontSize="20px"
         color="white"
         borderRadius={"8px"}   
-        mb="20px" 
+        my="20px" 
       >
           Calculate Now
         </Button>
@@ -230,8 +230,8 @@ return (
             
             alt="income-solution"
             style={{
-              width: "90%",
-              height: "90%",
+              width: "100%",
+              height: "100%",
             }}
             className="mx-auto pl-[0px] rounded-lg"
             priority
