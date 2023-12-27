@@ -231,7 +231,7 @@ return (
             alt="income-solution"
             style={{
               width: "100%",
-              height: "100%",
+              height: "90%",
             }}
             className="mx-auto pl-[0px] rounded-lg"
             priority
