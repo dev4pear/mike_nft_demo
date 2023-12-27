@@ -191,7 +191,7 @@ return (
       <Typography type="headline1" as="span" lineHeight={"64px"} color="text.success" align={"center"} py={5}>
         Expected Result{" "}
       </Typography>
-      <Flex className=" lg:flex-col flex-col-reverse">
+      <Flex className=" lg:flex-col flex-col-reverse lg:max-w-[600px]">
         <Flex className="pt-[10px]" mx="auto">
           <Flex className="flex-col w-[160px]" paddingRight={5} >
             <Typography type="body1" as="span" color="text.success">
@@ -231,7 +231,7 @@ return (
             alt="income-solution"
             style={{
               width: "100%",
-              height: "90%",
+              height: "100%",
             }}
             className="mx-auto pl-[0px] rounded-lg"
             priority
