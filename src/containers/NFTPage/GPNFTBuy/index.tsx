@@ -89,11 +89,11 @@ const GPNFTBuy = () => {
             px={8}
             py={7}
             // onClick={}
-            color="white"
+            
             fontSize={20}
             borderRadius={"8px"}
             zIndex={11}
-            className="my-auto"  
+            className="my-auto text-white hover:text-[black]"  
           >
             Buy
           </Button>

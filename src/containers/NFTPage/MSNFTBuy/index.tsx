@@ -139,7 +139,7 @@ const MSNFTBuy = () => {
             fontSize={20}
             borderRadius={"8px"}
             zIndex={11}
-            className="my-auto"   
+            className="my-auto text-white hover:text-[black]"   
             // h={"full"}         
           >
             Buy
