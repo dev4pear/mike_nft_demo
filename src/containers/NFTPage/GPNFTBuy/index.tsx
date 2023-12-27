@@ -56,7 +56,7 @@ const GPNFTBuy = () => {
             Additional Yield:        
           </Typography>
           <Typography type="body1" color="text.read" mb="8px" >
-            Generation Prime NFTs offer additional yield up to 365% APR
+            Generation Prime NFTs offer additional yield up to 365% APR.
           </Typography>
         </Flex>
         <Flex className=" border-[1px] border-gray-500 rounded-lg py-2 pl-5 pr-2 my-1 border-l-4 border-l-green-400">
